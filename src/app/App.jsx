@@ -1,17 +1,9 @@
-import React from 'react';
-import './App.css';
-
-import { AppRoutes } from './AppRoutes';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Layout from '../layout/layout';
+import './App.css'; 
+import HomePage from '../pages/Homepage/Homepage';
 
 const App = () => {
 	return (
-		<Router>
-			<Layout>
-				<AppRoutes />
-			</Layout>
-		</Router>
+		<HomePage/>
 	);
 };
 
