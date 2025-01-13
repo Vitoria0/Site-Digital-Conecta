@@ -42,7 +42,7 @@ const HomePage = () => {
     window.open('https://w.app/OVacNf', '_blank');
   };
   const handleClickOnborading = () => {
-    window.open('https://onboarding-o1ie-io4dxuwzi-vitoria0s-projects.vercel.app/', '_blank');
+    window.open('https://onboarding-c3i2-g85elaufz-vitoria0s-projects.vercel.app/', '_blank');
   };
 
 	const handleChange = e => {
