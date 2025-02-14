@@ -1,7 +1,7 @@
 import { Button, Typography } from '@mui/material';
 
 
-export const Primary = ({ children, noShadow, metodo, ...props }) => {
+export const Tertiary = ({ children, noShadow, metodo, ...props }) => {
 	return (
 		<Button
 			onClick={metodo}
@@ -12,17 +12,20 @@ export const Primary = ({ children, noShadow, metodo, ...props }) => {
 				borderRadius: '10px',
 				boxShadow:noShadow?'none': '0px 10px 10px #FF6F2870',
 				transition: 'all 200ms ease-in-out',
+				backgroundColor: 'white',
 				'&:hover': {
 					border: 0,
 					transform: 'scale(1.03)',
+backgroundColor: 'white',
 				},
 				'&:focus': {
 					outline: 'none',
+backgroundColor: 'white',
 				},
 			}}
 			{...props}
 		>
-			<Typography variant='p' color={'#FFF'} fontWeight={'bold'} sx={{fontSize:{xs: '0.6rem', sm: '0.8rem', md:'0.7rem',lg:'0.8rem',  xl:'0.8rem'}}}>
+			<Typography variant='p' color={'#FF6F28'} fontWeight={'bold'} sx={{fontSize:{xs: '0.6rem', sm: '0.8rem', md:'0.7rem',lg:'0.8rem',  xl:'0.8rem'}}}>
 				{children}
 			</Typography>
 		</Button>

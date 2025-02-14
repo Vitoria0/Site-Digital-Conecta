@@ -6,21 +6,21 @@ let theme = createTheme({
 	palette: {
 		type: 'light',
 		primary: {
-			main: '#FE7062',
+			main: '#FF6F28',
 		},
 		secondary: {
-			main: '#FE7062',
+			main: '#FF6F28',
 		},
 		tertiary: {
-			main: '#FE7062',
+			main: '#FF6F28',
 		},
 		text: {
-			primary: '#FE7062',
-			secondary: '#FE7062',
-			tertiary: '#FE7062',
+			primary: '#FF6F28',
+			secondary: '#FF6F28',
+			tertiary: '#FF6F28',
 		},
 		background: {
-			default: '#FE7062',
+			default: '#FF6F28',
 		},
 	},
 });

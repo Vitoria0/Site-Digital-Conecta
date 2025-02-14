@@ -113,7 +113,7 @@ return (<svg width="100%"  viewBox="0 0 474 469" fill="none" xmlns="http://www.w
 </linearGradient>
 <linearGradient id="paint2_linear_168_730" x1="406.46" y1="82.654" x2="-110.965" y2="673.64" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FF928E"/>
-<stop offset="1" stop-color="#FE7062"/>
+<stop offset="1" stop-color="#FF6F28"/>
 </linearGradient>
 <linearGradient id="paint3_linear_168_730" x1="275.795" y1="140.616" x2="228.419" y2="473.402" gradientUnits="userSpaceOnUse">
 <stop stop-color="#09005D"/>
