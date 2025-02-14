@@ -404,7 +404,7 @@ mt: { xs: 5, md: 5, xl: 12 },
 								alignItems: 'center',
 								flexDirection: 'row',
 								width: '80%',
-								gap: { xs: 5, md: 5, xl: 5 },
+								gap: { xs: 1, md: 5, xl: 5 },
 							}}
 						>
 							<Card imagem={curso2} link={'https://cyber-security-course.vercel.app/'}/>
