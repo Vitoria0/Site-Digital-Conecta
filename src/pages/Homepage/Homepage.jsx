@@ -13,6 +13,7 @@ import { ReactSVG } from '../../assets/svg/react.jsx';
 import emailjs from 'emailjs-com';
 import { Tertiary } from '../../components/Botao/Tertiary.jsx';
 import { Card } from '../../components/Card/card.jsx';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const HomePage = () => {
 	const [formData, setFormData] = useState({
@@ -35,7 +36,7 @@ const HomePage = () => {
 	};
 
 	const handleClick = () => {
-		window.open('https://wa.me/5547992503931', '_blank');
+		window.open('https://wa.me/554799855093', '_blank');
 	};
 	const handleClickOnborading = () => {
 		window.open('https://onboarding-c3i2-g85elaufz-vitoria0s-projects.vercel.app/', '_blank');
@@ -97,6 +98,22 @@ const HomePage = () => {
 				margin: 0,
 			}}
 		>
+ <div
+      onClick={handleClick}
+      style={{
+        position: 'fixed',
+        bottom: '20px',
+        right: '20px',
+        backgroundColor: '#25D366',
+        borderRadius: '50%',
+        padding: '15px',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+        cursor: 'pointer',
+        animation: 'pulse 1.5s infinite',
+      }}
+    >
+      <WhatsAppIcon size={40} color="#fff" sx={{color: '#fff!important'}} />
+    </div>
 			<Box
 				sx={{
 
